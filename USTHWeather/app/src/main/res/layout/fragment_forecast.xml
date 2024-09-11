@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ForecastFragment"
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
 
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#79D9B8"
+        >
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:layout_width="80dp"
@@ -45,7 +65,9 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="80dp"
@@ -76,7 +98,9 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="80dp"
@@ -107,7 +131,9 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="80dp"
@@ -138,7 +164,9 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="80dp"
@@ -169,7 +197,9 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="80dp"
@@ -200,7 +230,9 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="80dp"
@@ -215,6 +247,7 @@
             android:layout_width="60dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
+            android:contentDescription="@string/todo"
             android:src="@drawable/weather" />
 
         <TextView
@@ -231,7 +264,9 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#AAF0D1">
+        android:background="#AAF0D1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="80dp"
@@ -258,5 +293,11 @@
             android:textSize="22sp"
             android:textColor="@color/black"/>
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#AAF0D1"/>
 </LinearLayout>

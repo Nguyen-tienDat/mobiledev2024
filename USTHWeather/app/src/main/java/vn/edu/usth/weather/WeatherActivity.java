@@ -24,6 +24,9 @@ public class WeatherActivity extends AppCompatActivity {
 
         ForecastFragment firstFragment = new ForecastFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.main, firstFragment).commit();
+
+        WeatherFragment secondFragment = new WeatherFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.main, secondFragment).commit();
     }
     protected void onPause(){
         super.onPause();
