@@ -8,4 +8,6 @@
     <string name="newyork_nusa">NewYork\nUSA</string>
     <string name="paris">Paris</string>
     <string name="todo">TODO</string>
+    <string name="setting">Setting</string>
+    <string name="refresh">refresh</string>
 </resources>
